@@ -1,61 +1,70 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
 
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Hello World</title>
+    <title>Hello World</title>
 
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
-    <div class= "navBackground">
+
+    <div class="navBackground">
         <nav>
 
             <header>
-                    <h1 id= "wHeader">
-                        Bryan Carvalho
-                    </h1>
+                <h1 id="wHeader">
+                    Bryan Carvalho
+                </h1>
             </header>
-        
-            <ul>
-                <li><a href="index.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">About</a></li>
-            </ul>
-            </div>
 
+            <ul>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="index.html">About</a>
+                </li>
+            </ul>
         </nav>
     </div>
 
-    <div class= "main">
 
-        <h1>
-            Contact
-        </h1>
+    <div class="container">
+        <div class="main">
+
+            <h1>
+                Contact
+            </h1>
 
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith">
-        
+            <input class="inputfield" type="text" id="name" name="name" placeholder="John Smith" />
+
             <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="example@gmail.com">
+            <input class="inputfield" type="text" id="email" name="email" placeholder="example@gmail.com" />
 
             <label for="message">Message</label>
-            <input type="text" id="message" name="message">
+            <textarea class="inputfield" id="message" name="message" rows="3"></textarea>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" />
 
+        </div>
     </div>
-
     <footer>
-            <p class = "Copyright">
-                Copyright ©
-            </p>
+        <p class="Copyright">
+            Copyright ©
+        </p>
     </footer>
 
 </body>
+
 </html>
