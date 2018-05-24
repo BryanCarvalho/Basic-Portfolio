@@ -3,7 +3,7 @@
 body {
     margin: 0 auto;
     background-image: url("../images/concrete-texture.png");
-    background-color: lightcoral;
+    background-color: #cccccc;
 }
 
 .navBackground {
@@ -86,12 +86,14 @@ nav {
     margin: auto;
 }
 
-.Main {
+.main {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     width: 894px;
     padding: 32px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
 }
 
 footer {
@@ -155,3 +157,39 @@ input[type=submit] {
 }*/
 
 /* Styles for cards in portfolio page */
+
+.card {
+    background-color: grey;
+    width: 274px;
+    height: 208px;
+    margin-top: 16px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    float: left;
+    position: relative;
+}
+
+.cardBanner {
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 60px;
+    bottom: 10px;
+    position: absolute;
+
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 22px;
+    line-height: 1.5;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    color:  #ffffff;
+}
+
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
