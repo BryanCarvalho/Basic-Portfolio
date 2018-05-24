@@ -64,6 +64,11 @@ li a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     text-decoration: none;
+    transition: color 0.25s ease-in-out;
+}
+
+li a:hover {
+    color: #4aaaa5;
 }
 
 img {
@@ -150,16 +155,17 @@ input[type=submit] {
     margin-top: 8px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
 }
 
-/*input[type=submit]:hover {
-    background-color: #45a049;
-}*/
+input[type=submit]:hover {
+    background-color: #2b7470;
+}
 
 /* Styles for cards in portfolio page */
 
 .card {
-    background-color: grey;
+    background-color: #cccccc;
     width: 274px;
     height: 208px;
     margin-top: 16px;
